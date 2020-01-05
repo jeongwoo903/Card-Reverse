@@ -1,5 +1,3 @@
-@charset "UTF-8";
-
 img {
   width: auto;
   height: 275px;
@@ -8,7 +6,11 @@ img {
 
 body {
   background-color: antiquewhite;
-  margin-top: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .container {
@@ -20,9 +22,6 @@ body {
   width: 570px;
   height: 310px;
   border-radius: 1em;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
 
 .card1,
